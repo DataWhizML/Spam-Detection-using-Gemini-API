@@ -2,7 +2,7 @@ import google.generativeai as genai
 import streamlit as st
 
 model = genai.GenerativeModel('gemini-pro')
-genai.configure(api_key="AIzaSyBFOLzPXNfyT9pAIntAo7-Jeo9VU-0v5Z0")
+genai.configure(api_key="API Key")
 
 def detect_spam(input_text, category, explanation, model):
     # check if a category is specified, otherwise default to spam, not_spam, unknown
